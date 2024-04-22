@@ -1,0 +1,11 @@
+{
+  "name": "testing-js",
+  "version": "1.0.0",
+  "description": "## JavaScript Course: Testing JavaScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
