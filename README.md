@@ -86,3 +86,17 @@
     presets: [['@babel/preset-env', { targets: { node: 'current' } }]],
   };
   ```
+
+- In `package.json` update the test script and add watch script:
+
+  ```diff
+    "version": "1.0.0",
+    "description": "## JavaScript Course: Testing JavaScript",
+    "scripts": {
+  -    "test": "echo \"Error: no test specified\" && exit 1"
+  +    "test": "jest --verbose",
+  +    "watch": "jest --verbose --watch"
+    },
+    "keywords": [],
+    "author": "",
+  ```
