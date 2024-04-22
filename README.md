@@ -78,3 +78,11 @@
   ```console
   npm i -D jest babel-jest @babel/core @babel/preset-env
   ```
+
+- Create `babel.config.js` and add the following content:
+
+  ```js
+  module.exports = {
+    presets: [['@babel/preset-env', { targets: { node: 'current' } }]],
+  };
+  ```
