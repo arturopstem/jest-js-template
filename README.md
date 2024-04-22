@@ -7,3 +7,9 @@
   ```console
   npm i -D eslint@8 prettier eslint-config-prettier @trivago/prettier-plugin-sort-imports eslint-plugin-jest
   ```
+
+- Run ESLint config tool:
+
+  ```console
+  npm init @eslint/config
+  ```
