@@ -43,3 +43,15 @@
   +    }
    }
   ```
+
+- Create file `.prettierrc.json` with the following content:
+
+  ```json
+  {
+    "singleQuote": true,
+    "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "plugins": ["@trivago/prettier-plugin-sort-imports"]
+  }
+  ```
