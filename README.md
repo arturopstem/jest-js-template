@@ -55,3 +55,9 @@
     "plugins": ["@trivago/prettier-plugin-sort-imports"]
   }
   ```
+
+- Install @types/jest for Jest type definitions and enhanced VSCode autocompletion/intellisense
+
+  ```console
+  npm i -D @types/jest
+  ```
