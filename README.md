@@ -61,3 +61,14 @@
   ```console
   npm i -D @types/jest
   ```
+
+- Open _Preferences: Open Workspace Settings (JSON)_ and enable automatic ESLint fixes and code formatting on save, with the following config in `settings.json`:
+
+  ```json
+  {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.formatOnSave": true
+  }
+  ```
