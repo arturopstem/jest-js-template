@@ -72,3 +72,9 @@
     "editor.formatOnSave": true
   }
   ```
+
+- Install Jest and Babel dependencies:
+
+  ```console
+  npm i -D jest babel-jest @babel/core @babel/preset-env
+  ```
