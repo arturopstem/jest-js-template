@@ -1,6 +1,6 @@
-# The Odin Project
+# Jest JavaScript Template
 
-## JavaScript Course: Testing JavaScript
+## Basic Jest - JS - Node template
 
 - Install eslint, prettier and plugins :
 
