@@ -1,4 +1,4 @@
-# The Odin Poject
+# The Odin Project
 
 ## JavaScript Course: Testing JavaScript
 
