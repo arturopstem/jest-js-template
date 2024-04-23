@@ -1,7 +1,7 @@
 {
-  "name": "testing-js",
+  "name": "jest-js-template",
   "version": "1.0.0",
-  "description": "## JavaScript Course: Testing JavaScript",
+  "description": "Basic Jest - JS - Node template",
   "scripts": {
     "test": "jest --verbose",
     "watch": "jest --verbose --watch"
