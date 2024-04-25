@@ -17,22 +17,35 @@
 - Modify the content of `.eslint.json`:
 
   ```diff
-   {
-       "env": {
            "es2021": true,
-  -        "node": true
-  +        "node": true,
-  +        "jest/globals": true
+           "node": true
        },
   -    "extends": "airbnb-base",
+  -    "overrides": [],
   +    "extends": [
   +        "airbnb-base",
   +        "prettier"
   +    ],
-  +    "plugins": [
-  +        "jest"
+  +    "overrides": [
+  +        {
+  +            "files": [
+  +                "src/**/*.test.js"
+  +            ],
+  +            "env": {
+  +                "es2021": true,
+  +                "node": true,
+  +                "jest/globals": true
+  +            },
+  +            "plugins": [
+  +                "jest"
+  +            ],
+  +            "extends": [
+  +                "airbnb-base",
+  +                "prettier",
+  +                "plugin:jest/recommended"
+  +            ]
+  +        }
   +    ],
-       "overrides": [],
        "parserOptions": {
            "ecmaVersion": "latest",
            "sourceType": "module"
