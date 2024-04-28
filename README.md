@@ -40,8 +40,6 @@
   +                "jest"
   +            ],
   +            "extends": [
-  +                "airbnb-base",
-  +                "prettier",
   +                "plugin:jest/recommended"
   +            ]
   +        }
